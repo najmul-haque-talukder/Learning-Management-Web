@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+import daisyui from 'daisyui'
+
+export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
     extend: {
@@ -13,13 +15,11 @@ module.exports = {
         'home-heading-large': ['48px', '56px'],
         'default': ['15px', '21px']
       }
-    },
+    }
   },
-  plugins: [
-    require('daisyui')
-  ],
+  plugins: [daisyui],
   daisyui: {
     themes: ['light', 'dark'],
     darkTheme: 'dark'
-  },
-};
+  }
+}
