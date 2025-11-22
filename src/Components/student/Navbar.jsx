@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className={`flex items-center  justify-between px-5 md:px-20 py-4 border-b border-gray-300 ${isCoursesListPage? "bg-white" : "bg-cyan-100/70" }`}>
         <div className="flex items-center">
           <Link to={"/"} className="flex items-center">
-            <img src="/public/naj.png" className="w-15 cursor-pointer" />
+            <img src="/naj.png" className="w-15 cursor-pointer" />
             <p className="font-black md:text-3xl">N Tech Academy</p>
           </Link>
         </div>
