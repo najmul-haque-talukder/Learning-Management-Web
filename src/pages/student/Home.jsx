@@ -16,6 +16,7 @@ const Home = () => {
         <Testimonial />
         <CallToAction />
       </div>
+        <Footer />
     </div>
   )
 }
